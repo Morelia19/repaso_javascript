@@ -42,3 +42,9 @@ console.log(nombreUsuario.trim()); // "Ailerom"
 
 // Repetir la cadena 3 veces
 console.log(nombreUsuario.repeat(3)); // "AileromAileromAilerom"
+
+// Convert the number to a string and pad it to a fixed length (for example, 5 characters)
+console.log(nombreUsuario.toString().padStart(5, '0'));
+
+// Check if the reversed string includes the padded original string
+console.log(nombreUsuario.includes("m"));
