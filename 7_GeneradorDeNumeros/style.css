@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#boton{
+    background-color: rgb(41, 188, 41);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3em;
+    margin: 4px 2px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#myLabel{
+    font-size: 6em;
+    color: rgb(20, 59, 20);
+    margin-top: 20px;
+}
